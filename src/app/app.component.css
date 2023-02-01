@@ -1,0 +1,25 @@
+a {
+}
+
+code {
+  display: block;
+  margin-top: 20px;
+}
+
+.actual {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.expected {
+  display: inline-block;
+
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  box-sizing: content-box;
+
+}
